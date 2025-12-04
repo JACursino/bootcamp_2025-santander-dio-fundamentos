@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banners/dio_bootcamp.webp" alt="Banner DIO" width="100%">
+</p>
 # Santander 2025 - Fundamentos de Lógica de Programação em JavaScript
 
 Bootcamp em parceria com a plataforma DIO
