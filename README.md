@@ -1,4 +1,8 @@
-# Santander 2025 - Fundamentos de Lógica de Programação em JavaScript
+<p align="center">
+  <img src="banners/dio_bootcamp.webp" alt="Banner DIO" width="100%">
+</p>
+
+# Santander 2025 - Fundamentos de Lógica de Programação em JavaScript 
 
 Bootcamp em parceria com a plataforma DIO
 
@@ -15,9 +19,7 @@ Sistema de classificação baseado em experiência (XP)
 [![Ver Código](https://img.shields.io/badge/Ver_Código-index.js-green?style=for-the-badge)](./projeto-desafio/classificador/index.js)
 
 ## 🛠️ Tecnologias
-
-- JavaScript
-- Node.js
+![My Skills](https://skillicons.dev/icons?i=js,nodejs)
 
 ## 👨‍💻 Autor
 
