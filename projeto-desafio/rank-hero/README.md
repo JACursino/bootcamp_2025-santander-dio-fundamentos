@@ -63,7 +63,7 @@ O sistema classifica os jogadores em 7 níveis baseados na quantidade de vitóri
 | ≥ 101 | 👑 Imortal | 👑 |
 
 ## 📸 Exemplos de Uso
-![Demonstração no Terminal](./imagens/calculadora.png)
+![Demonstração no Terminal](/home/jose/dev/cursos/dio/bootcamp/santander_2025/projeto-desafio/rank-hero/imagens/calculadora.PNG)
 
 
 ## 🎨 Melhorias Implementadas
