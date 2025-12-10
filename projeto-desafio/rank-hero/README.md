@@ -64,7 +64,7 @@ O sistema classifica os jogadores em 7 níveis baseados na quantidade de vitóri
 
 ## 📸 Exemplos de Uso
 ![Demonstração no Terminal](./imagens/calculadora.png)
-```
+
 
 ## 🎨 Melhorias Implementadas
 
