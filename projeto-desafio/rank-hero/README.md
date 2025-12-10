@@ -63,7 +63,7 @@ O sistema classifica os jogadores em 7 níveis baseados na quantidade de vitóri
 | ≥ 101 | 👑 Imortal | 👑 |
 
 ## 📸 Exemplos de Uso
-![Demonstração no Terminal](./rank-hero/imagens/calculadora.PNG)
+![Demonstração no Terminal](imagens/calculadora.png)
 
 
 ## 🎨 Melhorias Implementadas
