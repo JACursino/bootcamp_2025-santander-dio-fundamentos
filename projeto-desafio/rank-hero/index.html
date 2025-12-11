@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Rankeadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ RANK - HERO</h1>
+            <p class="subtitle">Forjado em batalha, medido em vitórias</p>
+            <button class="btn-audio" id="btnAudio" onclick="toggleAudio()" title="Ativar/Desativar Narração">
+                <span id="audioIcon">🔊</span>
+                <span id="audioText">Áudio Ativado</span>
+            </button>
+        </div>
+
+        <div class="input-group">
+            <label>💪 Vitórias</label>
+            <input type="number" id="victories" min="0" placeholder="Digite suas vitórias">
+        </div>
+
+        <div class="input-group">
+            <label>💀 Derrotas</label>
+            <input type="number" id="defeats" min="0" placeholder="Digite suas derrotas">
+        </div>
+
+        <div class="buttons-container">
+            <button class="btn-calculate" onclick="calcular()">⚔️ Calcular</button>
+            <button class="btn-clear" onclick="limpar()">🔄 Limpar</button>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="result" id="result">
+            <div class="rank-display">
+                <div class="rank-icon" id="rankIcon"></div>
+                <div class="rank-name" id="rankName"></div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">✅ Vitórias</div>
+                    <div class="stat-value" id="statVictories"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">❌ Derrotas</div>
+                    <div class="stat-value" id="statDefeats"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">⚔️ Saldo</div>
+                    <div class="stat-value" id="statBalance"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">📈 Taxa de Vitória</div>
+                    <div class="stat-value" id="statWinRate"></div>
+                </div>
+            </div>
+
+            <div class="motivation">
+                <div class="motivation-title">💬 Mensagem do Sistema</div>
+                <div class="motivation-text" id="motivationText"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo DIO marca d'água -->
+    <div class="watermark">
+        <a href="https://www.dio.me" target="_blank" rel="noopener noreferrer">
+            <img src="https://hermes.dio.me/assets/diome/logo.png" alt="DIO - Digital Innovation One">
+            <div class="watermark-tooltip">
+                <strong>🎓 Desafio Bootcamp DIO</strong>
+                <p>Desafio de Lógica de Programação em JavaScript</p>
+                <span>Clique para conhecer a DIO</span>
+            </div>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
