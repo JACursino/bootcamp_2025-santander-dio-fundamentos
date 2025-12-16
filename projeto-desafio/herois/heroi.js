@@ -8,58 +8,81 @@ class Heroi {
 
     // Método para exibir informações do herói
     exibirInfo() {
-        console.log(`Nome: ${this.nome}`);
-        console.log(`Idade: ${this.idade}`);
-        console.log(`Tipo: ${this.tipo}`);
+        let icone = this.obterIcone();
+        console.log(`${icone}  Nome:  ${this.nome}`);
+        console.log(`    Idade:  ${this.idade}`);
+        console.log(`    Tipo:  ${this.tipo}`);
         console.log("------------------");
+    }
+
+    // Método para obter o ícone do tipo
+    obterIcone() {
+        if (this.tipo === "Mago") {
+            return "🔮 ";
+        } else if (this.tipo === "Guerreiro") {
+            return "⚔️ ";
+        } else if (this.tipo === "Monge") {
+            return "🥋 ";
+        } else if (this.tipo === "Ninja") {
+            return "🥷 ";
+        } else {
+            return "❓";
+        }
     }
 
     // Método para atacar conforme o tipo
     atacar() {
         let ataque;
+        let iconeAtaque;
 
         // Estrutura de decisão para definir o tipo de ataque
-        if (this.tipo === "mago") {
+        if (this.tipo === "Mago") {
             ataque = "magia";
-        } else if (this.tipo === "guerreiro") {
+            iconeAtaque = "✨ ";
+        } else if (this.tipo === "Guerreiro") {
             ataque = "espada";
-        } else if (this.tipo === "monge") {
+            iconeAtaque = "🗡️ ";
+        } else if (this.tipo === "Monge") {
             ataque = "artes marciais";
-        } else if (this.tipo === "ninja") {
+            iconeAtaque = "🥋 ";
+        } else if (this.tipo === "Ninja") {
             ataque = "shuriken";
+            iconeAtaque = "💥 ";
         } else {
             ataque = "ataque desconhecido";
+            iconeAtaque = "❓";
         }
 
         // Exibindo a mensagem conforme o requisito
-        console.log(`o ${this.tipo} atacou usando ${ataque}`);
+        console.log(`${iconeAtaque} O herói ${this.tipo} atacou usando ${ataque}`);
     }
 }
 
 // Criando 4 heróis com os tipos do desafio
-const Heroi1 = new Heroi("Merlin", 28, "mago");
-const Heroi2 = new Heroi("Arthur", 32, "guerreiro");
-const Heroi3 = new Heroi("Aragorn Fuy", 25, "monge");
-const Heroi4 = new Heroi("Ryu", 23, "ninja");
+const heroi1 = new Heroi("Merlin", 28, "Mago");
+const heroi2 = new Heroi("Arthur", 32, "Guerreiro");
+const heroi3 = new Heroi("Aragorn Fuy", 25, "Monge");
+const heroi4 = new Heroi("Ryu", 23, "Ninja");
 
 // Exibindo informações dos heróis
 console.log("\n=== INFORMAÇÕES DOS HERÓIS ===\n");
-Heroi1.exibirInfo();
-Heroi2.exibirInfo();
-Heroi3.exibirInfo();
-Heroi4.exibirInfo();
+heroi1.exibirInfo();
+heroi2.exibirInfo();
+heroi3.exibirInfo();
+heroi4.exibirInfo();
 
 // Testando os ataques (requisito do desafio)
-console.log("\n=== ATAQUES ===\n");
-Heroi1.atacar();
-Heroi2.atacar();
-Heroi3.atacar();
-Heroi4.atacar();
+console.log("\n=== DEMONSTRAÇÃO: Ataques Individuais ===\n");
+heroi1.atacar();
+heroi2.atacar();
+heroi3.atacar();
+heroi4.atacar();
 
 // Exemplo com loop
-console.log("\n=== RODADA DE ATAQUES (com loop) ===\n");
-const todosHerois = [Heroi1, Heroi2, Heroi3, Heroi4];
-
+console.log("\n=== DEMONSTRAÇÃO: Ataques com Laço de Repetição (FOR) ===\n");
+const todosHerois = [heroi1, heroi2, heroi3, heroi4];
 for (let i = 0; i < todosHerois.length; i++) {
     todosHerois[i].atacar();
 }
+
+console.log("\n🏆 === FIM DA BATALHA === 🏆\n");
