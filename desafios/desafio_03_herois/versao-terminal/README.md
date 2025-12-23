@@ -1,95 +1,63 @@
-# 🎮 Escrevendo as Classes de Um Jogo
+# 🎮 Card Battle Arena - Versão Terminal
 
-Projeto desenvolvido como parte do desafio de **Lógica de Programação** da [DIO - Digital Innovation One](https://www.dio.me/).
+> Implementação básica do desafio focada em lógica de programação e POO, executada no console.
 
-## 📋 Sobre o Desafio
-
-Criar uma classe genérica que represente um herói de uma aventura, aplicando conceitos fundamentais de programação orientada a objetos e lógica de programação.
-
-## 🎯 Objetivos
-
-O desafio consiste em criar uma classe `Heroi` que possua:
-
-### Propriedades:
-- `nome` - Nome do herói
-- `idade` - Idade do herói
-- `tipo` - Tipo do herói (guerreiro, mago, monge, ninja)
-
-### Métodos:
-- `atacar()` - Realiza um ataque baseado no tipo do herói
-
-### Regras de Ataque:
-O método `atacar()` deve exibir mensagens diferentes conforme o tipo:
-
-| Tipo | Ataque |
-|------|--------|
-| 🔮 Mago | usou magia |
-| ⚔️ Guerreiro | usou espada |
-| 🥋 Monge | usou artes marciais |
-| 🥷 Ninja | usou shuriken |
-
-### Saída Esperada:
-```
-o {tipo} atacou usando {ataque}
+## 🚀 Como Executar
+```bash
+node index.js
 ```
 
-## 🛠️ Tecnologias Utilizadas
+**Requisitos:** Node.js instalado
 
-- **JavaScript** - Linguagem de programação
-- **Node.js** - Ambiente de execução
+## 📂 Estrutura
+```
+versao-terminal/
+└── index.js         # Implementação completa
+```
 
-## 📦 Conceitos Aplicados
+## 🛠️ Tecnologias
 
-- ✅ Variáveis
-- ✅ Operadores
-- ✅ Estruturas de decisão (if/else)
-- ✅ Funções e Métodos
-- ✅ Classes e Objetos
-- ✅ Laços de repetição (for)
+- JavaScript (Node.js)
+- POO (Classes e Métodos)
 
+## ✨ Funcionalidades
+
+- ✅ Classe `Heroi` com propriedades e métodos
+- ✅ 4 tipos de heróis
+- ✅ Sistema de ataques diferenciados
+- ✅ Exibição formatada com emojis
+- ✅ Demonstração com loops
 
 ## 💻 Exemplo de Saída
-
 ```
 === INFORMAÇÕES DOS HERÓIS ===
 
-Nome: Merlin
-Idade: 28
-Tipo: mago
+🔮  Nome:  Merlin
+    Idade:  28
+    Tipo:  Mago
 ------------------
-Nome: Arthur
-Idade: 32
-Tipo: guerreiro
-------------------
-Nome: Aragorn Fuy
-Idade: 25
-Tipo: monge
-------------------
-Nome: Ryu
-Idade: 23
-Tipo: ninja
+⚔️  Nome:  Arthur
+    Idade:  32
+    Tipo:  Guerreiro
 ------------------
 
-=== DEMONSTRAÇÃO: Ataques Individuais ===
+=== ATAQUES ===
 
-o mago atacou usando magia
-o guerreiro atacou usando espada
-o monge atacou usando artes marciais
-o ninja atacou usando shuriken
-
-=== DEMONSTRAÇÃO: Ataques com Laço de Repetição (FOR) ===
-
-o mago atacou usando magia
-o guerreiro atacou usando espada
-o monge atacou usando artes marciais
-o ninja atacou usando shuriken
+✨ O herói Mago atacou usando magia
+🗡️ O herói Guerreiro atacou usando espada
+🥋 O herói Monge atacou usando artes marciais
+💥 O herói Ninja atacou usando shuriken
 ```
 
+## 🎯 Conceitos Aplicados
 
-## 🎨 Versões do Projeto
+- ✅ Classes e Objetos
+- ✅ Métodos e Propriedades
+- ✅ Estruturas condicionais
+- ✅ Laços de repetição
+- ✅ Template literals
 
-###  Versão com Emojis (Opcional)
-- Adição de ícones visuais
-- Melhorias na formatação do terminal
-- Método obterIcone() adicional
+---
 
+📖 Para documentação completa, veja o [README principal](../README.md)
+```

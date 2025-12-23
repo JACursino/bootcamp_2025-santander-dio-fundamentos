@@ -1,36 +1,50 @@
-![Demonstração no Terminal](imagens/capa.png)
+# 🎮 Card Battle Arena - Versão Web
 
-# 🎮 Card Battle Arena
-## 📚 Sobre o Projeto
-Desafio #3 do Bootcamp Santander + DIO: **"Escrevendo as classes de um Jogo"**
+> Interface gráfica interativa do desafio de heróis com cards, animações e sistema de batalha em tempo real.
 
-Transformei o desafio de criar uma classe de herói com métodos de ataque em uma **interface visual interativa completa**, mantendo todos os conceitos de POO solicitados.
+## 🚀 Como Executar
 
-## 🎯 Requisitos Atendidos
-- ✅ Classe genérica `Heroi`
-- ✅ Propriedades: nome, idade, tipo
-- ✅ Método `atacar()` com lógica condicional
-- ✅ 4 tipos de heróis com ataques específicos
-- ✅ Uso de: variáveis, operadores, loops, condicionais, funções
+1. **Abra o arquivo:**
+   - Duplo clique em `index.html`, ou
+   - Use Live Server no VS Code
 
-## 🚀 Diferenciais Implementados
-- Interface visual completa (HTML/CSS/JS Vanilla)
-- Personagens customizados estilo South Park
-- Sistema de log de batalha em tempo real
-- Animações e efeitos interativos
-- Design responsivo
-- Sistema de batalha em grupo
+2. **Interaja:**
+   - Clique em "Atacar" nos cards
+   - Use "Batalha em Grupo" para ataque conjunto
+   - Acompanhe o log de batalha
+
+## 📂 Arquivos
+```
+versao-web/
+├── index.html       # Estrutura HTML
+├── style.css        # Estilos e animações
+├── script.js        # Lógica e classe Heroi
+└── /imagens/        # Assets visuais
+```
 
 ## 🛠️ Tecnologias
-- HTML5
-- CSS3 (Animações, Flexbox, Grid)
-- JavaScript ES6+ (Classes, Arrow Functions, DOM)
 
-## 🎨 Demonstração
-[Link para GitHub Pages ou screenshot]
+- HTML5
+- CSS3 (Grid, Flexbox, Animations)
+- JavaScript ES6+ (Classes, DOM)
+
+## ✨ Funcionalidades
+
+- ✅ Cards interativos de heróis
+- ✅ Animações (shake, hover, fade)
+- ✅ Log de batalha colorido
+- ✅ Sistema de batalha individual e em grupo
+- ✅ Design responsivo
+
+## 🎨 Personagens
+
+| Herói | Tipo | Ataque |
+|-------|------|--------|
+| Merlin | 🔮 Mago | Magia |
+| Melissa | ⚔️ Guerreira | Espada |
+| Aragorn Fuy | 🥋 Monge | Artes Marciais |
+| Ryu | 🥷 Ninja | Shuriken |
 
 ---
 
-**Bootcamp:** Santander 2025
-**Plataforma:** Digital Innovation One (DIO)
-**Desafio:** Escrevendo as classes de um Jogo
+📖 Para documentação completa, veja o [README principal](../README.md)
