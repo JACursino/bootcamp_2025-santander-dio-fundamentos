@@ -1,8 +1,6 @@
-# 🎮 Card Battle Arena
-
 ![Demonstração no Terminal](imagens/capa.png)
 
-
+# 🎮 Card Battle Arena
 ## 📚 Sobre o Projeto
 Desafio #3 do Bootcamp Santander + DIO: **"Escrevendo as classes de um Jogo"**
 
