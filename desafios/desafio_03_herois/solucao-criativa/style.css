@@ -1,0 +1,79 @@
+/* Estilo geral da página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0e6d2; /* Cor de fundo estilo pergaminho */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo do card */
+.card {
+  width: 220px;
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.041);
+  margin: 15px;
+  position: relative;
+  background-image: url('images/viking.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Conteúdo do card (sobreposto à imagem) */
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0); /* Fundo semi-transparente */
+  color: rgb(250, 248, 248);
+  border-radius: 0 0 15px 15px;
+}
+
+
+
+/* Nome do card */
+.card-name {
+  font-size: 18px;
+  margin: 0 0 05px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 8px;
+}
+
+/* Estatísticas do card */
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.stat {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Habilidade do card */
+.card-ability {
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-top: 10px;
+}
