@@ -1,10 +1,31 @@
-# 🎮 Card Battle Arena
+# 🎮 Escrevendo as Classes de Um Jogo
 
 Jogo interativo de batalha entre heróis desenvolvido como parte do desafio da **Digital Innovation One (DIO)**.
 
 ## 🎯 Sobre o Projeto
 
-Este projeto foi desenvolvido como resposta ao **Desafio #3 - Escrevendo as classes de um Jogo** da DIO, com o objetivo de aplicar conceitos fundamentais de programação orientada a objetos como:
+Este projeto foi desenvolvido como resposta ao Desafio #3 - Escrevendo as classes de um Jogo da DIO, com o objetivo de aplicar conceitos fundamentais de programação orientada a objetos.
+
+## 📋 Requisitos do Desafio
+Objetivo: Criar uma classe genérica Heroi que represente um herói de aventura.
+Propriedades obrigatórias:
+
+nome - Nome do herói
+idade - Idade do herói
+tipo - Classe do personagem (guerreiro, mago, monge, ninja)
+
+Método obrigatório:
+
+atacar() - Exibe mensagem: "o {tipo} atacou usando {ataque}"
+
+Regras de ataque:
+
+Mago → "usou magia"
+Guerreiro → "usou espada"
+Monge → "usou artes marciais"
+Ninja → "usou shuriken"
+
+## Conceitos que devem ser aplicados:
 
 * ✅ Variáveis
 * ✅ Operadores
@@ -81,34 +102,7 @@ card-battle-arena/
 │
 └── /versao-terminal/            # Versão terminal
     └── index.js
----
-
-## 🎮 Como Usar
-
-### Versão Web
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/JACursino/bootcamp_2025-santander-dio-fundamentos/blob/main/desafios/desafio_03_herois/versao-web/index.html
-cd card-battle-arena
 ```
-
-2. Abra o arquivo `index.html` no navegador:
-   * Duplo clique no arquivo, ou
-   * Use Live Server (VS Code)
-
-3. Interaja com a aplicação:
-   * Clique em **"Atacar"** em cada card para ataque individual
-   * Use **"Batalha em Grupo"** para todos atacarem em sequência
-   * Acompanhe o histórico no **Log de Batalha**
-   * Clique em **"Limpar Log"** para resetar o histórico
-
-### Versão Terminal
-```bash
-cd versao-terminal
-node index.js
-```
-
 ---
 
 ## 🏆 Sistema de Heróis
@@ -279,22 +273,6 @@ Implementação minimalista focada em lógica e POO, com saída formatada no con
 * **[Digital Innovation One (DIO)](https://www.dio.me/)** pelo desafio proposto
 * **Santander** pelo patrocínio do bootcamp
 * Comunidade de desenvolvedores da DIO
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais como parte do Bootcamp Santander 2025.
-
----
-
-## 👨‍💻 Autor
-
-**[Seu Nome]**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
-[![DIO](https://img.shields.io/badge/DIO-FF6B35?style=for-the-badge&logo=dev.to&logoColor=white)](https://www.dio.me/users/seu-usuario)
 
 ---
 
