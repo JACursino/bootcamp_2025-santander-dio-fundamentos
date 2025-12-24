@@ -89,7 +89,7 @@ card-battle-arena/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/card-battle-arena.git
+git clone https://github.com/JACursino/bootcamp_2025-santander-dio-fundamentos/blob/main/desafios/desafio_03_herois/versao-web/index.html
 cd card-battle-arena
 ```
 
